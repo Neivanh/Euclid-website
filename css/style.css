@@ -1,0 +1,139 @@
+/*Fonts*/
+
+@font-face {
+  font-family: 'Monserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local('MonserratRegular'), local('Monserrat-Regular')
+   url(../fonts/montserrat-regular-webfont.woff) format('woff'),
+   url(../fonts/montserrat-regular-webfont.woff2) format('woff2');
+}
+@font-face {
+  font-family: Monserrat;
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local('MonserratSemibold'), local('Monserrat-Semibold')
+   url(../fonts/montserrat-semibold-webfont.woff) format('woff'),
+   url(../fonts/montserrat-semibold-webfont.woff2) format('woff2');
+}
+@font-face {
+  font-family: Monserrat;
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local('MonserratBold'), local('Monserrat-Bold')
+   url(../fonts/montserrat-bold-webfont.woff) format('woff'),
+   url(../fonts/montserrat-bold-webfont.woff2) format('woff2');
+}
+@font-face {
+  font-family: Monserrat;
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+  src: local('MonserratExtraBold'), local('Monserrat-ExtraBold')
+   url(../fonts/montserrat-extrabold-webfont.woff) format('woff'),
+   url(../fonts/montserrat-extrabold-webfont.woff2) format('woff2');
+}
+
+/*Specification*/
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --black-color: #333333;
+  --orange-color: #ff9900;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: 'Monserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-btn {
+  background: var(--orange-color);
+  font-weight: 700;
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.site-heding {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  color: var(--black-color);
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+/*Header*/
+
+.header {
+  width: 100%;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+}
+
+.header_container {
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_inner {
+  display: flex;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+}
+
+.nav_item:not(:last-child) {
+  margin-right: 85px;
+}
+
+.nav_item:last-child {
+  margin-right: 70px;
+}
+
+.nav_link {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--black-color);
+}
+
+/*Search*/
+
+.search {
+  width: 26px;
+  height: 26px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin-right: 12px;
+}
