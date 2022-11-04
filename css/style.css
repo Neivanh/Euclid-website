@@ -137,3 +137,19 @@ a {
   background-color: transparent;
   margin-right: 12px;
 }
+
+/*hero*/
+
+.hero {
+  height: 621px;
+}
+
+.header_container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.swiper {
+  height: 100%;
+  width: 100%;
+}
