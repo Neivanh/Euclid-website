@@ -170,9 +170,31 @@ a {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
+.hero-content_heading {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 86px;
+  color: var(--white-color);
+}
+
+.hero-content_text {
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 29px;
+  color: var(--white-color);
+}
+
+.hero-content_btn {
+  font-size: 23px;
+  padding: 25px 37px;
+}
+
+
+
