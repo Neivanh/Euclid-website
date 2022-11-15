@@ -168,5 +168,53 @@
 .about-right__item {
   background-position: left 62px top 54px;
 }
-
+.work {
+  padding-top: 66px;
+}
+.work__item:not(:last-child) {
+  margin-right: 86px;
+}
+.work__list {
+  margin-bottom: 55px;
+}
+.work-left__title {
+  margin-bottom: 9px;
+}
+.work-left__text {
+  max-width: 437px;
+  margin-bottom: 24px;
+}
+.work-right {
+  width: 47%;
+}
+.questions {
+  padding-top: 45px;
+  padding-bottom: 82px;
+}
+.questions__heading {
+  margin-bottom: 30px;
+}
+.questions__title {
+  font-size: 20px;
+  max-width: 756px;
+}
+.questions__wrapper {
+  padding: 42px 0;
+}
+.footer__form {
+  min-width: 541px;
+}
+.footer-right {
+  display: block;
+  width: 59%;
+}
+.form__btn {
+  padding: 19px 39px;
+}
+.footer__logo {
+  margin-bottom: 26px;
+}
+.footer__list {
+  margin-bottom: 97px;
+}
 }
