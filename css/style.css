@@ -143,6 +143,10 @@ a {
   color: var(--black-color);
 }
 
+.menu-close {
+  display: none;
+}
+
 .search {
   width: 26px;
   height: 26px;
@@ -407,15 +411,13 @@ a {
 .questions__wrapper {
   position: relative;
   padding: 41px 0;
-  border-top: 1px solid var(--color-grey);  
+  border-top: 1px solid var(--color-grey);
 }
 
 .questions__title {
   margin: 0;
   font-size: 24px;
   font-weight: 700;
-  padding: 41px 0;
-  border-top: 1px solid var(--color-grey);
 }
 
 .ui-accordion-content {
@@ -431,7 +433,7 @@ a {
   top: 30px;
   right: 0;
   border-radius: 100%;
-  background-image: url("/img/accordion-icon.svg");
+  background-image: url("/img/accordon-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
   transition: transform .3s ease-in-out;
