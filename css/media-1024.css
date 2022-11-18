@@ -135,24 +135,6 @@
   margin-bottom: 58px;
 }
 
-.swiper-pagination-bullet-active {
-  background-color: var(--white-color);
-}
-
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0 10px;
-}
-
-.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-  bottom: 27px;
-}
-
-.swiper-pagination-bullet {
-  width: 15px;
-  height: 15px;
-  background-color: var(--white-color);
-}
-
 .about {
   padding-top: 87px;
 }
