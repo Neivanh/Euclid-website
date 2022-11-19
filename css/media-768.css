@@ -7,9 +7,9 @@
     height: 663px;
   }
 
-  .swiper-slide {
-    padding-top: 163px;
-    padding-left: 40px;
+  .hero-content {
+    top: 163px;
+    left: 40px;
   }
 
   .hero-content__heading {

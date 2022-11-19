@@ -1,7 +1,12 @@
 @media (max-width: 1470px) {
+  .about-content {
+    flex-wrap: wrap;
+  }
   .about-content__left {
     max-width: 100%;
+    min-height: 500px;
     margin-right: 0;
+    margin-bottom: 20px;
   }
 
   .about-content__right {
@@ -22,14 +27,31 @@
   }
 
   .burger {
+    display: block;
+    outline: none;
     width: 30px;
     position: relative;
     height: 23px;
   }
 
+  .burger::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 110%;
+    height: 110%;
+    border: 2px solid transparent;
+  }
+
+  .burger:focus::before {
+    border-color: var(--orange-color);
+  }
+
   .burger__line {
     position: absolute;
     display: inline-block;
+    right: 0;
     width: 100%;
     height: 3px;
     background-color: var(--black-color);
@@ -37,17 +59,32 @@
 
   .burger__line:first-child {
     top: 0;
-    left: 0;
   }
 
   .burger__line:nth-child(2) {
     top: 45%;
-    left: 0;
   }
 
   .burger__line:last-child {
     bottom: 0;
-    left: 0;
+  }
+
+  .burger:active .burger__line:first-child {
+    transition: background-color .3s ease-in-out;
+    background-color: var(--color-christine);
+  }
+
+  .burger:active .burger__line:nth-child(2) {
+    top: 45%;
+    width: 25px;
+    transition: width .3s ease-in-out, background-color .3s ease-in-out;
+    background-color: var(--color-christine);
+  }
+
+  .burger:active .burger__line:last-child:active {
+    width: 18px;
+    transition: width .3s ease-in-out,  background-color .3s ease-in-out;
+    background-color: var(--color-christine);
   }
 
   .logo__img {
@@ -118,8 +155,8 @@
   height: 670px;
 }
 
-.swiper-slide {
-  padding-top: 162px;
+.hero-content {
+  top: 162px;
 }
 
 .hero-content__heading {
