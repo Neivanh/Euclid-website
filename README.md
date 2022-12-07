@@ -2,7 +2,7 @@
 
 |  #  | Project                                                                                                                     | Live Demo                                                                         |
 | :-: | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 01  | [Euclid Website](https://github.com/bradtraversy/50projects50days/tree/master/expanding-cards)                             | [Live Demo](https://neivanh.github.io/Euclid_website/.)      
+| 01  | [Euclid Website](https://github.com/bradtraversy/50projects50days/tree/master/expanding-cards)                             | [Live Demo]( https://neivanh.github.io/Euclid-website/)      
 
 
 
